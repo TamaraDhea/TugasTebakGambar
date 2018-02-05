@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyek.proyekbesar">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Level1" />
+        <activity android:name=".Hasil1" />
+        <activity android:name=".PilihLevel" />
+        <activity android:name=".HasilLevel1" />
+        <activity android:name=".Level2" />
+        <activity android:name=".Level3" />
+        <activity android:name=".Level4" />
+        <activity android:name=".Selfie" />
+        <activity android:name=".petunjuk" />
+        <activity android:name=".Login" />
+        <activity android:name=".Level" />
+        <activity android:name=".KirimBuat" />
+        <activity android:name=".KirimLihat" />
+        <activity android:name=".KirimUpdate" />
+        <activity android:name=".Kirim"></activity>
+    </application>
+
+</manifest>

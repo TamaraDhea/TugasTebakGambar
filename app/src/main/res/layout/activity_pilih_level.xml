@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6ff02"
+    tools:context="com.example.proyek.proyekbesar.PilihLevel">
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/levela" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/levelb" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="299dp"
+        android:background="@drawable/levelc" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="413dp"
+        android:background="@drawable/leveld" />
+
+</RelativeLayout>
